@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Setup Tailscale Network
-        uses: tailscale/github-action@v2
+        uses: tailscale/github-action@v3
         with:
           authkey: ${{ secrets.TAILSCALE_AUTH_KEY }}
 
